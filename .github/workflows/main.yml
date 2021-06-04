@@ -1,4 +1,8 @@
-on: [push]
+name: Action Thru Push
+
+on:
+  push:
+    - main/**
 
 jobs:
   hello_world_job:
