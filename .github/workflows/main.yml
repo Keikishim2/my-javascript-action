@@ -1,4 +1,4 @@
-name: Action Thru Push[push]
+on: [push]
 
 jobs:
   hello_world_job:
@@ -9,6 +9,7 @@ jobs:
       id: hello
       uses: keikishim2/my-javascript-action@v1
       with:
-        who-to-greet: 'Kei Kishimoto'
+        who-to-greet: 'Keikishim'
+    # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
