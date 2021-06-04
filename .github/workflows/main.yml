@@ -1,5 +1,5 @@
-name: Action Thru Push
-  on:
+name: Action Thru Push[push]
+
     push:
     - main**
 
