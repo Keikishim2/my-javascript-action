@@ -1,8 +1,7 @@
 name: Action Thru Push
-
-on:
-  push:
-    - main/**
+  on:
+    push:
+    - main**
 
 jobs:
   hello_world_job:
