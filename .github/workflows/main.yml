@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: kubowania/my-javascript-action@v1
+      uses: keikishim2/my-javascript-action@v1
       with:
         who-to-greet: 'Kei Kishimoto'
     - name: Get the output time
